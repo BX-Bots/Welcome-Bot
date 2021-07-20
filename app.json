@@ -5,9 +5,9 @@
   "keywords": [
     "Tg welcome bot","welcome bot"
   ],
-  "repository": "https://github.com/BXBots/MT-WELCOME-BOT",
+  "repository": "https://github.com/BXBotz/Welcome-Bot",
   "success_url": "http://t.me/WelcomeBXBot",
-  "website": "https://github.com/BXBots/MT-WELCOME-BOT",
+  "website": "https://github.com/BXBotz/Welcome-Bot",
   "env": {
           "BOT_TOKEN": {"description": "Get Bot Token From @BotFather","required": true}
   },

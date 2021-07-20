@@ -9,7 +9,6 @@ A Telegram Bot To Welcome New Members On Grou
 
 # Variables
 - `BOT_TOKEN` - Get From @BotFather
-- `APP_NAME` - Heroku App Name
 
 
 

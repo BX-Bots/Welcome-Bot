@@ -1,0 +1,27 @@
+{
+  "name": "welcome bot",
+  "description": "A telegram Welcome Bot",
+  "logo": "https://telegra.ph/file/4968cf093ed8be7d8223a.jpg",
+  "keywords": [
+    "Tg welcome bot","welcome bot"
+  ],
+  "repository": "https://github.com/BXBots/MT-WELCOME-BOT",
+  "success_url": "http://t.me/WelcomeBXBot",
+  "website": "https://github.com/BXBots/MT-WELCOME-BOT",
+  "env": {
+          "BOT_TOKEN": {"description": "Get Bot Token From @BotFather","required": true}
+  },
+      "buildpacks": [
+        {"url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"},
+        {"url": "heroku/python"}
+    ],
+  "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+      "stack": "heroku-20"
+
+
+}

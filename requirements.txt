@@ -1,0 +1,4 @@
+Python-telegram-bot
+pyrogram
+tgcrypto
+pickledb
